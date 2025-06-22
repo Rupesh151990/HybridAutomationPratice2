@@ -25,6 +25,7 @@ public class TestBase {
 
 	public TestBase() {
 		try {
+			
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream(
 					System.getProperty("user.dir") + "/src/main/java/com/qa/configuration/config.properties");
